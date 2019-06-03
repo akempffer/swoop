@@ -1,0 +1,27 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+* {
+    outline: 1px dotted black;
+}
+
+/* Global, site, universe */
+
+/* Homepage */
+.home {
+  background: teal;
+}
+
+/* Bio */
+.bio {
+  background: turquoise;
+}
+
+/* Contact */
+.contact {
+  background: thistle;
+}
