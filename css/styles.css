@@ -5,11 +5,20 @@
   * Outline Elements
 */
 
-* {
+/* * {
     outline: 1px dotted black;
+} */
+
+/* Global */
+h1 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-/* Global, site, universe */
+h1 span:nth-child(even) {
+  color: thistle;
+}
 
 /* Homepage */
 .home {
@@ -18,10 +27,10 @@
 
 /* Bio */
 .bio {
-  background: turquoise;
+  background: blue;
 }
 
 /* Contact */
 .contact {
-  background: thistle;
+  background: green;
 }
